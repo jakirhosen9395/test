@@ -69,7 +69,7 @@ Record this value under:
 Run:
 
 ```powershell
-Get-NetAdapter | Select-Object Name, InterfaceDescription, MacAddress, Status
+Get-NetAdapter | Select-Object Name, MacAddress
 ```
 
 ### Example Output
