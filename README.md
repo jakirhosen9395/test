@@ -31,7 +31,7 @@ Rename-Computer -NewName "Replace-With-Your-Device-HostName"
 ### Example
 
 ```powershell
-Rename-Computer -NewName "GIX-IT-001-Jakir"
+Rename-Computer -NewName "GIX-11018"
 ```
 
 ### Example Output
@@ -55,7 +55,7 @@ hostname
 ### Example Output
 
 ```text
-GIX-IT-001-Jakir
+GIX-11018
 ```
 
 Record this value under:
@@ -146,7 +146,7 @@ sudo scutil --set HostName "Replace-With-Your-Device-HostName"
 ### Example
 
 ```bash
-sudo scutil --set HostName "GIX-IT-001-Jakir"
+sudo scutil --set HostName "GIX-11018"
 ```
 
 Enter the Mac administrator password when prompted.
@@ -162,7 +162,7 @@ scutil --get HostName
 ### Example Output
 
 ```text
-GIX-IT-001-Jakir
+GIX-11018
 ```
 
 Record this value under:
@@ -266,7 +266,7 @@ sudo hostnamectl set-hostname "Replace-With-Your-Device-HostName"
 ### Example
 
 ```bash
-sudo hostnamectl set-hostname "GIX-IT-001-Jakir"
+sudo hostnamectl set-hostname "GIX-11018"
 ```
 
 A restart is normally not required.
@@ -284,7 +284,7 @@ hostname
 ### Example Output
 
 ```text
-GIX-IT-001-Jakir
+GIX-11018
 ```
 
 Record this value under:
